@@ -7,3 +7,10 @@ border: 2px solid black;
     margin-right:10px; 
     float: left;
 }
+
+button{
+text-align:center;
+margin-top:45%;
+padding-left:140px;
+padding-right:130px;
+}
