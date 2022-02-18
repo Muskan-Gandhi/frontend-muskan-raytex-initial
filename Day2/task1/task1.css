@@ -1,22 +1,11 @@
 .container{
-border: 2px solid black;
-    height: 300px;
-    width: 300px;
+margin: 10px;
+}
+.box{
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
     margin-left:10px;
     margin-right:10px; 
     float: left;
-	margin-bottom:10px;
-}
-.box{
-
-margin-top:35%;
-height:auto;
-width:100%;
-text-align:center;
-}
-.button{
-margin-top:35%;
-height:20px;
-width:100px;
-text-align:center;
 }
