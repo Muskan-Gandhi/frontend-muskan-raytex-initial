@@ -1,10 +1,13 @@
-    function table(){
-    var car=document.getElementById("cars").value;
-    var name=document.getElementById("name").value;
-    console.log(car);
-    //console.log(city);
+function Data(){
+    var firstname1 = document.getElementById("firstname").value;
+    var lastname1 = document.getElementById("lastname").value;
+    var city1 = document.getElementById("city").value;
+    var state1 = document.getElementById("state").value;
+    var country1 = document.getElementById("country").value;
 
-    document.getElementById("car").innerHTML = car;
-    document.getElementById("name").innerHTML = name;
-    }
-    
+    document.getElementById("fname").innerHTML=firstname1;
+    document.getElementById("lname").innerHTML=lastname1;
+    document.getElementById("city2").innerHTML=city1;
+    document.getElementById("state2").innerHTML=state1;
+    document.getElementById("cntry").innerHTML=country1;
+}
