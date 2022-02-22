@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="E:\frontend\week1\frontend-muskan-raytex-initial\Day4\task4\task4.css">
+</head>
+<body class="txt">
+    Name <input type="text" id="name">
+    <div class="dropdown">
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+    </select>
+    </div>
+    
+    <br>
+        <button class="btn btn-secondary dropdown-toggle" onclick="table()" type="button">
+          submit
+        </button>
+        <table style="border: 2px black solid;  margin: 20px;">
+            <tr>
+                <th>cars</th>
+                <th>City</th> 
+              </tr>
+              <tr>
+                <td><p id="car"></p></td>
+                <td><p id="name"></p></td>
+              </tr>
+              
+        </table>
+        
+      
+      <script src="./../task4/form.js"></script>
+</body>
+</html>
