@@ -10,4 +10,7 @@ function Data(){
     document.getElementById("city2").innerHTML=city1;
     document.getElementById("state2").innerHTML=state1;
     document.getElementById("cntry").innerHTML=country1;
+
+
+
 }
